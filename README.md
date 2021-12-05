@@ -5,5 +5,6 @@ PyQt Dark Gray Theme
 Just copy the raw code of css file and use it whatever you want.
 
 ## Example
+See README.md of any links below.
 * <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">Notepad</a>
 * <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">Calculator</a>
