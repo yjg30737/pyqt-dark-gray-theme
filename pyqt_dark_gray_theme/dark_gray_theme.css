@@ -221,13 +221,13 @@ QMenu::separator { background-color: #555; height: 1px;}
 
 QMenuBar { background-color: #444; color: white; }
 
-                                    QMenuBar::item:selected { /* when selected using mouse or keyboard */
-                                        background: #666;
-                                    }
-                                    
-                                    QMenuBar::item:pressed {
-                                        background: #555;
-                                    }
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background: #666;
+}
+
+QMenuBar::item:pressed {
+    background: #555;
+}
 
 QMenuBar::item:disabled {
 	color: #CCCCCC;
