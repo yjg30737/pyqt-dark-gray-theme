@@ -2,7 +2,7 @@
 PyQt Dark Gray Theme
 
 ## Note
-This is not perfect at all and button(QPushButton) style only works those of text-written.
+This is under-developed clumsy module so far. Don't use it.
 
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-dark-gray-theme.git --upgrade```
