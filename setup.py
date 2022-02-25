@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     package_data={'pyqt_dark_gray_theme': ['theme.css',
                                            'icon_button.css',
-                                           'no_icon_button.css']},
+                                           'icon_text_button.css']},
     description='PyQt dark-gray theme',
     url='https://github.com/yjg30737/pyqt-dark-gray-theme.git'
 )

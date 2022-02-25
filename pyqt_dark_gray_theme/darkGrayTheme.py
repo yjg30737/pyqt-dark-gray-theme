@@ -13,5 +13,5 @@ def getThemeStyle() -> str:
 def getIconButtonStyle() -> str:
     return readFrom('icon_button.css')
 
-def getNoIconButtonStyle() -> str:
-    return readFrom('no_icon_button.css')
+def getIconTextButtonStyle() -> str:
+    return readFrom('icon_text_button.css')
