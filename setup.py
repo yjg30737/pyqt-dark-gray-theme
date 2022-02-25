@@ -7,7 +7,7 @@ setup(
     author_email='yjg30737@gmail.com',
     license='MIT',
     packages=find_packages(),
-    package_data={'pyqt-dark-gray-theme': ['dark_gray_theme.css']},
+    package_data={'pyqt_dark_gray_theme': ['dark_gray_theme.css']},
     description='PyQt dark-gray theme',
     url='https://github.com/yjg30737/pyqt-dark-gray-theme.git'
 )
