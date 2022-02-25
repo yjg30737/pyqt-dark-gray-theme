@@ -17,4 +17,4 @@ def getIconTextButtonStyle() -> str:
     return readFrom('icon_text_button.css')
 
 def getMenuBarStyle() -> str:
-    return readFrom('theme.css')
+    return readFrom('menu_bar.css')
