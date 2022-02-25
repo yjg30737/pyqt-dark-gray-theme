@@ -2,6 +2,7 @@ QMainWindow { background-color: #555; }
 QDialog { background-color: #555; }
 .QLabel { color: #DDD; }
 QWidget {
+    background-color: #555;
 	color: white;
 }
 
