@@ -8,6 +8,10 @@ OR
 
 Just copy the <a href="https://raw.githubusercontent.com/yjg30737/pyqt-dark-gray-theme/main/pyqt_dark_gray_theme/dark_gray_theme.css">raw code</a> of css file and use it whatever you want.
 
+## Usage
+* ```getDarkGrayTheme() -> str``` to get the ```dark_gray_theme.css```'s code. 
+* Call ```widget.setStyleSheet(css_code)``` and that's it.
+
 ## Example
 * <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">Dark Notepad</a> - sort of.
 * <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">Calculator</a> - ditto
