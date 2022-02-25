@@ -6,7 +6,7 @@ PyQt Dark Gray Theme
 
 OR
 
-Just copy the <a href="https://raw.githubusercontent.com/yjg30737/pyqt-dark-gray-theme/main/pyqt_dark_gray_theme/dark_gray_theme.css">raw code</a> of css file and use it whatever you want.
+Just copy the raw code of each css file and use it whatever you want.
 
 ## Usage
 * ```getThemeStyle() -> str``` to get the ```dark_gray_theme.css```'s code.
