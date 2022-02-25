@@ -1,9 +1,6 @@
 # pyqt-dark-gray-theme
 PyQt Dark Gray Theme
 
-## Note
-This is under-developed clumsy module so far. Don't use it.
-
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-dark-gray-theme.git --upgrade```
 
