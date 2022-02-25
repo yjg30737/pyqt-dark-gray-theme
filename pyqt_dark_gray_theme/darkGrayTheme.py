@@ -1,20 +1,17 @@
 import os, inspect, sys
 
 
-def getThemeStyle() -> str:
+def readFrom(style_sheets: str):
     caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(0)).filename)
-    f = open(os.path.join(caller_path, 'theme.css'), 'r')
+    f = open(os.path.join(caller_path, style_sheets), 'r')
     content = f.read()
     return content
+
+def getThemeStyle() -> str:
+    return readFrom('theme.css')
 
 def getIconButtonStyle() -> str:
-    caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(0)).filename)
-    f = open(os.path.join(caller_path, 'icon_button.css'), 'r')
-    content = f.read()
-    return content
+    return readFrom('icon_button.css')
 
 def getNoIconButtonStyle() -> str:
-    caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(0)).filename)
-    f = open(os.path.join(caller_path, 'no_icon_button.css'), 'r')
-    content = f.read()
-    return content
+    return readFrom('no_icon_button.css')
