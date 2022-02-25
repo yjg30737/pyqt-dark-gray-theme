@@ -1,0 +1,27 @@
+QMenuBar { background-color: #444; color: white; }
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background: #666;
+}
+
+QMenuBar::item:pressed {
+    background: #555;
+}
+
+QMenuBar::item:disabled {
+	color: #CCCCCC;
+}
+
+QToolButton {
+    background-color: transparent;
+    border: 0;
+    padding: 1;
+}
+
+QToolButton::hover {
+    background-color: #555;
+}
+
+QToolButton::pressed {
+    background-color: #222;
+}
