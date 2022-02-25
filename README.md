@@ -11,3 +11,4 @@ Just copy the <a href="https://raw.githubusercontent.com/yjg30737/pyqt-dark-gray
 ## Example
 * <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">Dark Notepad</a> - sort of.
 * <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">Calculator</a> - ditto
+* <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">Comic Viewer</a> - ditto
