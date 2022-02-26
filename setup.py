@@ -13,5 +13,8 @@ setup(
                                            'menu_bar.css',
                                            'main_widget.css']},
     description='PyQt dark-gray theme',
-    url='https://github.com/yjg30737/pyqt-dark-gray-theme.git'
+    url='https://github.com/yjg30737/pyqt-dark-gray-theme.git',
+    install_requires=[
+        'PyQt5>=5.8'
+    ]
 )
