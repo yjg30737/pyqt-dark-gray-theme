@@ -32,12 +32,12 @@ QHeaderView::up-arrow {
     image: url(up_arrow.png);
 }
 
-QListWidget { background-color: #444; outline: 0; }
+QListWidget { background-color: transparent; outline: 0; }
 QListWidget::item { background-color: #444; color: #DDD; outline: 0; }
 QListWidget::item:hover { background-color: #666; outline: 0; }
 QListWidget::item:selected { background-color: #333; }
 
-QTreeView { background-color: #444; }
+QTreeView { background-color: transparent; }
 QTreeView::item { background-color: #444; color: #DDD; }
 QTreeView::item:hover { background-color: #666; }
 QTreeView::item:selected { background-color: #333; }
