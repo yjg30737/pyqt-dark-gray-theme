@@ -21,8 +21,7 @@ def getIconTextButtonStyle() -> str:
 
 def getMenuBarStyle(menu_bar: QMenuBar) -> str:
     tool_button = menu_bar.findChild(QToolButton)
-    tool_button.setToolButtonStyle(Qt.ToolButtonTextOnly)
-    tool_button.setText('»')
+    tool_button.setArrowType(Qt.RightArrow)
     return readFrom('menu_bar.css')
 
 def getMainWidgetStyle() -> str:
