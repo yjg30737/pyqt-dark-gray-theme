@@ -18,3 +18,6 @@ def getIconTextButtonStyle() -> str:
 
 def getMenuBarStyle() -> str:
     return readFrom('menu_bar.css')
+
+def getMainWidgetStyle() -> str:
+    return readFrom('main_widget.css')
