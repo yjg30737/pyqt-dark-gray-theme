@@ -15,7 +15,6 @@ QMenuBar::item:disabled {
 QToolButton {
     background-color: transparent;
     border: 0;
-    padding: 1;
 }
 
 QToolButton::hover {
