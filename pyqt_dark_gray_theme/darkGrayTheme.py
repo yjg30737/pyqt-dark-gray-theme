@@ -1,5 +1,8 @@
 import os, inspect, sys
 
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QMenuBar, QToolButton
+
 
 def readFrom(style_sheets: str):
     caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(0)).filename)
@@ -16,7 +19,10 @@ def getIconButtonStyle() -> str:
 def getIconTextButtonStyle() -> str:
     return readFrom('icon_text_button.css')
 
-def getMenuBarStyle() -> str:
+def getMenuBarStyle(menu_bar: QMenuBar) -> str:
+    tool_button = menu_bar.findChild(QToolButton)
+    tool_button.setToolButtonStyle(Qt.ToolButtonTextOnly)
+    tool_button.setText('»')
     return readFrom('menu_bar.css')
 
 def getMainWidgetStyle() -> str:
