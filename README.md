@@ -13,6 +13,7 @@ Just copy the raw code of each css file and use it whatever you want.
 * ```getIconButtonStyle() -> str``` to get the ```icon_button.css```'s code. This is for button which contains icon only.
 * ```getIconTextButtonStyle() -> str``` to get the ```icon_text_button.css```'s code. This is for button which contains text only or icon and text.
 * ```getMenuBarStyle() -> str``` to get the ```menu_bar.css```'s code. This is for dealing with menu bar.
+* ```getMainWidgetStyle() -> str``` to get the ```main_widget.css```'s code. This is for dealing with the case of ```QWidget``` as main window.
 
 ## Example
 * <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">Dark Notepad</a> - sort of.
