@@ -7,10 +7,10 @@ QDialog { background-color: #555; }
 
 QLineEdit { background: #666; color: #DDDDDD; border: none; }
 
-QTableWidget { background-color: #444; outline: 0; }
-QTableWidget::item { background-color: #444; color: #DDD; border: 1px solid #6c6c6c; }
-QTableWidget::item:hover { background-color: #666; }
-QTableWidget::item:selected { background-color: #333; }
+QTableView { background-color: #444; outline: 0; }
+QTableView::item { background-color: #444; color: #DDD; border: 1px solid #6c6c6c; }
+QTableView::item:hover { background-color: #666; }
+QTableView::item:selected { background-color: #333; }
 QHeaderView {
 background: transparent;
 }
@@ -28,10 +28,10 @@ QHeaderView::up-arrow {
     image: url(up_arrow.png);
 }
 
-QListWidget { background-color: #444; outline: 0; }
-QListWidget::item { background-color: #444; color: #DDD; outline: 0; }
-QListWidget::item:hover { background-color: #666; outline: 0; }
-QListWidget::item:selected { background-color: #333; }
+QListView { background-color: #444; outline: 0; }
+QListView::item { background-color: #444; color: #DDD; outline: 0; }
+QListView::item:hover { background-color: #666; outline: 0; }
+QListView::item:selected { background-color: #333; }
 
 QTreeView { background-color: #444; }
 QTreeView::item { background-color: #444; color: #DDD; }
