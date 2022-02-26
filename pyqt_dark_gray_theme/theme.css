@@ -114,23 +114,19 @@ QToolBar::separator {
 	margin: 2px;
 }
 
-
-QMenu { background-color: #444; border: 1px solid #666;}
-QMenu::item { background-color: #444; color: #DDD; }                                
-QMenu::item:selected { /* when user selects item using mouse or keyboard */ background-color: #666; }
-QMenu::item:disabled { color: #CCCCCC; }
-QMenu::separator { background-color: #555; height: 1px;}
 QComboBox {
 background: transparent;
 selection-background-color: transparent;
 selection-color: black;
 color: #DDD;
 }
+
 QComboBox QAbstractItemView {
     border: 1px solid darkgray;
     background: #444;
     selection-background-color: #555;
 }
+
 QSplitter::handle:vertical 
 {
 border-top: 1px groove #ccc;
@@ -140,6 +136,7 @@ margin-left: 0px;
 margin-right: 0px;
 border-color: #888;
 }
+
 QSplitter::handle:horizontal 
 {
 border-left: 1px groove #ccc;
