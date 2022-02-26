@@ -1,17 +1,13 @@
 QMainWindow { background-color: #555; }
 QDialog { background-color: #555; }
 .QLabel { color: #DDD; }
-QWidget {
-    background-color: #555;
-	color: white;
-}
 
 .QCheckBox { color: #DDD; }
 .QCheckBox:disabled { color: #AAA; }
 
 QLineEdit { background: #666; color: #DDDDDD; border: none; }
 
-QTableWidget { background-color: transparent; outline: 0; }
+QTableWidget { background-color: #444; outline: 0; }
 QTableWidget::item { background-color: #444; color: #DDD; border: 1px solid #6c6c6c; }
 QTableWidget::item:hover { background-color: #666; }
 QTableWidget::item:selected { background-color: #333; }
@@ -32,12 +28,12 @@ QHeaderView::up-arrow {
     image: url(up_arrow.png);
 }
 
-QListWidget { background-color: transparent; outline: 0; }
+QListWidget { background-color: #444; outline: 0; }
 QListWidget::item { background-color: #444; color: #DDD; outline: 0; }
 QListWidget::item:hover { background-color: #666; outline: 0; }
 QListWidget::item:selected { background-color: #333; }
 
-QTreeView { background-color: transparent; }
+QTreeView { background-color: #444; }
 QTreeView::item { background-color: #444; color: #DDD; }
 QTreeView::item:hover { background-color: #666; }
 QTreeView::item:selected { background-color: #333; }
