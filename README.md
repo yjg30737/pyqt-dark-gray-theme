@@ -18,7 +18,7 @@ Just copy the raw code of each css file and use it whatever you want.
 ## Example
 Code Sample
 
-Example GUI app - <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a>
+Example GUI app - <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> (which is ```QMainWindow``` as a parent class)
 ```Python
 from PyQt5.QtWidgets import QApplication, QPushButton
 from pyqt_comic_viewer.comicBookViewer import ComicBookViewer
