@@ -31,14 +31,15 @@ if __name__ == "__main__":
 
     app = QApplication(sys.argv)
     ex = ComicBookViewer()
-    ex.setStyleSheet(getThemeStyle())
-    btns = ex.findChildren(QPushButton)
+    ex.setStyleSheet(getThemeStyle()) # whole theme
+    btns = ex.findChildren(QPushButton) # buttons
     for btn in btns:
+        # check if text exists
         if btn.text().strip() == '':
-            btn.setStyleSheet(getIconButtonStyle())
+            btn.setStyleSheet(getIconButtonStyle()) # no text - icon button style
         else:
-            btn.setStyleSheet(getIconTextButtonStyle())
-    menu_bar = ex.menuBar()
+            btn.setStyleSheet(getIconTextButtonStyle()) # text - icon-text button style
+    menu_bar = ex.menuBar() # menu bar
     menu_bar_style = getMenuBarStyle(menu_bar)
     menu_bar.setStyleSheet(menu_bar_style)
     ex.show()
