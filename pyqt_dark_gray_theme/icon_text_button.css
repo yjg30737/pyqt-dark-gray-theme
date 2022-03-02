@@ -1,4 +1,4 @@
-QPushButton
+QAbstractButton
 {
 	border-width:1px;
 	border-radius: 10px;
@@ -8,21 +8,21 @@ QPushButton
 	background-color:#666666;
 	color: #DDDDDD;
 }
-QPushButton:hover
+QAbstractButton:hover
 {
 background-color:#888888;
 border-radius: 10px;
 }
-QPushButton:pressed
+QAbstractButton:pressed
 {
 background-color:#222222;
 border-radius: 10px;
 }
-QPushButton:checked
+QAbstractButton:checked
 {
 border: none;
 }
-QPushButton:disabled
+QAbstractButton:disabled
 {
 color: #AAAAAA;
 }
