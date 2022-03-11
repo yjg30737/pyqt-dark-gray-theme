@@ -261,3 +261,9 @@ QSlider::handle:horizontal {
     margin: -6px 0;
     border-radius: 3px;
 }
+
+QToolTip {
+    border: 1px solid #666;
+    background-color: #444;
+    color: #DDD;
+}
