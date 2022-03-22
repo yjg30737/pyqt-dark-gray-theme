@@ -1,4 +1,4 @@
-QAbstractButton
+QPushButton
 {
 	border-width:1px;
 	border-radius: 10px;
@@ -8,21 +8,50 @@ QAbstractButton
 	background-color:#666666;
 	color: #DDDDDD;
 }
-QAbstractButton:hover
+QPushButton:hover
 {
 background-color:#888888;
 border-radius: 10px;
 }
-QAbstractButton:pressed
+QPushButton:pressed
 {
 background-color:#222222;
 border-radius: 10px;
 }
-QAbstractButton:checked
+QPushButton:checked
 {
 border: none;
 }
-QAbstractButton:disabled
+QPushButton:disabled
+{
+color: #AAAAAA;
+}
+
+QToolButton
+{
+	border-width:1px;
+	border-radius: 10px;
+	min-width: 5em;
+	min-height: 1em;
+	padding: 6px;
+	background-color:#666666;
+	color: #DDDDDD;
+}
+QToolButton:hover
+{
+background-color:#888888;
+border-radius: 10px;
+}
+QToolButton:pressed
+{
+background-color:#222222;
+border-radius: 10px;
+}
+QToolButton:checked
+{
+border: none;
+}
+QToolButton:disabled
 {
 color: #AAAAAA;
 }

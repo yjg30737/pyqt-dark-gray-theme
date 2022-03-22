@@ -1,20 +1,42 @@
-QAbstractButton
+QPushButton
 {
 border:0; 
 background:transparent;
 padding:2px;
 }
-QAbstractButton:hover
+QPushButton:hover
 {
 background-color:#666666;
 border-radius: 2px;
 }
-QAbstractButton:pressed
+QPushButton:pressed
 {
 background-color:#222222;
 border-radius: 2px;
 }
-QAbstractButton:checked
+QPushButton:checked
+{
+background-color: #333333;
+border: none;
+}
+
+QToolButton
+{
+border:0; 
+background:transparent;
+padding:2px;
+}
+QToolButton:hover
+{
+background-color:#666666;
+border-radius: 2px;
+}
+QToolButton:pressed
+{
+background-color:#222222;
+border-radius: 2px;
+}
+QToolButton:checked
 {
 background-color: #333333;
 border: none;
