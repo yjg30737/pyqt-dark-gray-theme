@@ -7,7 +7,7 @@ QDialog { background-color: #555; }
 
 QLineEdit { background: #666; color: #DDDDDD; border: none; }
 
-QTableView { background-color: #444; outline: 0; }
+QTableView { background-color: #444; outline: 0; border: 0; }
 QTableView::item { background-color: #444; color: #DDD; border: 1px solid #6c6c6c; }
 QTableView::item:hover { background-color: #666; }
 QTableView::item:selected { background-color: #333; }
@@ -28,12 +28,12 @@ QHeaderView::up-arrow {
     image: url(up_arrow.png);
 }
 
-QListView { background-color: #444; outline: 0; }
+QListView { background-color: #444; outline: 0; border: 0;}
 QListView::item { background-color: #444; color: #DDD; outline: 0; }
 QListView::item:hover { background-color: #666; outline: 0; }
 QListView::item:selected { background-color: #333; }
 
-QTreeView { background-color: #444; }
+QTreeView { background-color: #444; border: 0;}
 QTreeView::item { background-color: #444; color: #DDD; }
 QTreeView::item:hover { background-color: #666; }
 QTreeView::item:selected { background-color: #333; }
