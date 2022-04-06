@@ -215,6 +215,7 @@ QGroupBox {
 }
 
 QGroupBox::title {
+    color: #DDD;
     subcontrol-origin: margin;
     subcontrol-position: top center; /* position at the top center */
     padding: 0 3px;
