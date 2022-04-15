@@ -1,27 +1,33 @@
-QMenuBar { background-color: #444; color: white; }
+QMenuBar {
+  background-color: #444444;
+  color: #DDDDDD;
+}
 
-QMenuBar::item:selected { /* when selected using mouse or keyboard */
-    background: #666;
+QMenuBar::item:selected {
+  /* when selected using mouse or keyboard */
+  background: #333333;
 }
 
 QMenuBar::item:pressed {
-    background: #555;
+  background: #333333;
 }
 
 QMenuBar::item:disabled {
-	color: #CCCCCC;
+  color: #AAAAAA;
 }
 
 QToolButton {
-    background-color: transparent;
-    border: 0;
-    color: #CCCCCC;
+  background-color: transparent;
+  border: 0;
+  color: #AAAAAA;
 }
 
 QToolButton::hover {
-    background-color: #555;
+  background-color: #666666;
 }
 
 QToolButton::pressed {
-    background-color: #222;
+  background-color: #333333;
 }
+
+/*# sourceMappingURL=dark_gray_menu_bar.css.map */
