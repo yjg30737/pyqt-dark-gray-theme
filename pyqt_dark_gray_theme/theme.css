@@ -60,14 +60,6 @@ QHeaderView::section {
   border: 1px solid #6c6c6c;
 }
 
-QHeaderView::down-arrow {
-  color: #888;
-}
-
-QHeaderView::up-arrow {
-  image: url(up_arrow.png);
-}
-
 QListView {
   background-color: #444444;
   outline: 0;
