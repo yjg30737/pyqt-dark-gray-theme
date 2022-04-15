@@ -133,7 +133,7 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 
 
 QScrollBar:vertical {
-  border: 1px solid grey;
+  border: 1px solid #777777;
   background: #333333;
   width: 15px;
   margin: 22px 0 22px 0;
@@ -145,7 +145,7 @@ QScrollBar::handle:vertical {
 }
 
 QScrollBar::add-line:vertical {
-  border: 1px solid grey;
+  border: 1px solid #777777;
   background: #333333;
   height: 20px;
   subcontrol-position: bottom;
@@ -153,7 +153,7 @@ QScrollBar::add-line:vertical {
 }
 
 QScrollBar::sub-line:vertical {
-  border: 1px solid grey;
+  border: 1px solid #777777;
   background: #333333;
   height: 20px;
   subcontrol-position: top;
@@ -169,7 +169,6 @@ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
   background: none;
 }
-
 
 QToolBar {
   background: #444444;
@@ -197,7 +196,7 @@ QComboBox {
 }
 
 QComboBox QAbstractItemView {
-  border: 1px solid darkgray;
+  border: 1px solid #777777;
   background: #444444;
   selection-background-color: #555555;
 }
@@ -223,6 +222,7 @@ QTextEdit
 
 QGraphicsView {
   background-color: #444444;
+  border: 1px solid #777777;
 }
 
 QTabBar::tab {
@@ -300,7 +300,7 @@ QMenu::separator {
 }
 
 QGroupBox {
-  border: 2px solid gray;
+  border: 2px solid #777777;
   border-radius: 5px;
   padding: 5px;
   margin-top: 7px;
@@ -315,7 +315,7 @@ QGroupBox::title {
 
 QSpinBox {
   color: #DDDDDD;
-  border: 2px solid gray;
+  border: 2px solid #777777;
   border-radius: 5;
   padding: 2;
   background: transparent;
@@ -336,7 +336,6 @@ QStatusBar QLabel {
 }
 
 QSlider::groove:horizontal {
-    border: 1px solid #999999;
     height: 3px;
     background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
     margin: 2px 0;
