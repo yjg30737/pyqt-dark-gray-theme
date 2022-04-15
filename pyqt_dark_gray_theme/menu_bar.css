@@ -18,7 +18,7 @@ QMenuBar::item:disabled {
 
 QToolButton {
   background-color: transparent;
-  border: 0;
+  border: none;
   color: #AAAAAA;
 }
 
@@ -29,5 +29,3 @@ QToolButton::hover {
 QToolButton::pressed {
   background-color: #333333;
 }
-
-/*# sourceMappingURL=dark_gray_menu_bar.css.map */

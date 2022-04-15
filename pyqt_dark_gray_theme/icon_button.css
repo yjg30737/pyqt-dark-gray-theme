@@ -1,5 +1,5 @@
 QPushButton {
-  border: 0;
+  border: none;
   background: transparent;
   padding: 2px;
 }
@@ -20,7 +20,7 @@ QPushButton:checked {
 }
 
 QToolButton {
-  border: 0;
+  border: none;
   background: transparent;
   padding: 2px;
 }
@@ -39,5 +39,3 @@ QToolButton:checked {
   background-color: #333333;
   border: none;
 }
-
-/*# sourceMappingURL=dark_gray_icon_button.css.map */

@@ -27,7 +27,7 @@ QLineEdit {
 QTableView {
   background-color: #444444;
   outline: 0;
-  border: 0;
+  border: none;
 }
 
 QTableView::item {
@@ -71,7 +71,7 @@ QHeaderView::up-arrow {
 QListView {
   background-color: #444444;
   outline: 0;
-  border: 0;
+  border: none;
 }
 
 QListView::item {
@@ -91,7 +91,7 @@ QListView::item:selected {
 
 QTreeView {
   background-color: #444444;
-  border: 0;
+  border: none;
 }
 
 QTreeView::item {
@@ -328,7 +328,7 @@ QTimeEdit {
 }
 
 QStatusBar::item {
-  border: 0;
+  border: none;
 }
 
 QStatusBar QLabel {
