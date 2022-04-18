@@ -15,6 +15,7 @@ setup(
     description='PyQt dark-gray theme',
     url='https://github.com/yjg30737/pyqt-dark-gray-theme.git',
     install_requires=[
-        'PyQt5>=5.8'
+        'PyQt5>=5.8',
+        'qt-sass-theme-getter @ git+https://git@github.com/yjg30737/qt-sass-theme-getter.git@main'
     ]
 )
