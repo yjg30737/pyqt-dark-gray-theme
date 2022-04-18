@@ -1,12 +1,12 @@
 # pyqt-dark-gray-theme
-PyQt Dark Gray Theme
+PyQt dark gray Theme
 
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-dark-gray-theme.git --upgrade```
 
-OR
+## Included Packages
+* <a href="https://github.com/yjg30737/qt-sass-theme-getter.git">qt-sass-theme-getter</a> - For get dark-gray theme css code
 
-Just copy the raw code of each css file and use it whatever you want.
 
 ## Usage
 * ```getThemeStyle() -> str``` to get the ```dark_gray_theme.css```'s code.
