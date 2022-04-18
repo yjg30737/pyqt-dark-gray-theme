@@ -1,6 +1,9 @@
 # pyqt-dark-gray-theme
 PyQt dark gray Theme
 
+## Requirements
+* PyQt5 >= 5.8
+
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-dark-gray-theme.git --upgrade```
 
