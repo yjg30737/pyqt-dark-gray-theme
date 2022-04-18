@@ -7,11 +7,6 @@ setup(
     author_email='yjg30737@gmail.com',
     license='MIT',
     packages=find_packages(),
-    package_data={'pyqt_dark_gray_theme': ['theme.css',
-                                           'icon_button.css',
-                                           'icon_text_button.css',
-                                           'menu_bar.css',
-                                           'main_widget.css']},
     description='PyQt dark-gray theme',
     url='https://github.com/yjg30737/pyqt-dark-gray-theme.git',
     install_requires=[
