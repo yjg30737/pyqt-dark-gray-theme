@@ -7,7 +7,6 @@ PyQt dark gray Theme
 ## Included Packages
 * <a href="https://github.com/yjg30737/qt-sass-theme-getter.git">qt-sass-theme-getter</a> - For get dark-gray theme css code
 
-
 ## Usage
 * ```getThemeStyle() -> str``` to get the ```dark_gray_theme.css```'s code.
 * ```getIconButtonStyle() -> str``` to get the ```icon_button.css```'s code. This is for button which contains icon only.
