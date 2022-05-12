@@ -1,1 +1,1 @@
-git+https://git@github.com/yjg30737/qt-sass-theme-getter.git@main
+qt-sass-theme-getter>=0.0.1
