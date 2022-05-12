@@ -1,26 +1,26 @@
 # pyqt-dark-gray-theme
-PyQt dark gray Theme
+PyQt dark-gray theme
 
 ## Requirements
 * PyQt5 >= 5.8
 
 ## Setup
-```pip3 install git+https://github.com/yjg30737/pyqt-dark-gray-theme.git --upgrade```
+`python -m pip install pyqt-dark-gray-theme`
 
 ## Included Packages
 * <a href="https://github.com/yjg30737/qt-sass-theme-getter.git">qt-sass-theme-getter</a> - For get dark-gray theme css code
 
 ## Usage
-* ```getThemeStyle() -> str``` to get the ```dark_gray_theme.css```'s code.
-* ```getIconButtonStyle() -> str``` to get the ```icon_button.css```'s code. This is for button which contains icon only.
-* ```getIconTextButtonStyle() -> str``` to get the ```icon_text_button.css```'s code. This is for button which contains text only or icon and text.
-* ```getMenuBarStyle(menu_bar: QMenuBar) -> str``` to get the ```menu_bar.css```'s code. This is for dealing with menu bar. You have to give the menu bar you want to change its style. 
-* ```getMainWidgetStyle() -> str``` to get the ```main_widget.css```'s code. This is for dealing with the case of ```QWidget``` as main window.
+* `getThemeStyle() -> str` to get the `dark_gray_theme.css`'s code.
+* `getIconButtonStyle() -> str` to get the `icon_button.css`'s code. This is for button which contains icon only.
+* `getIconTextButtonStyle() -> str` to get the `icon_text_button.css`'s code. This is for button which contains text only or icon and text.
+* `getMenuBarStyle(menu_bar: QMenuBar) -> str` to get the `menu_bar.css`'s code. This is for dealing with menu bar. You have to give the menu bar you want to change its style. 
+* `getMainWidgetStyle() -> str` to get the `main_widget.css`'s code. This is for dealing with the case of `QWidget` as main window.
 
 ## Example
 Code Sample
 
-Example GUI app - <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> (which is ```QMainWindow``` as a parent class)
+Example GUI app - <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> (which is `QMainWindow` as a parent class)
 ```Python
 from PyQt5.QtWidgets import QApplication, QPushButton
 from pyqt_comic_viewer.comicBookViewer import ComicBookViewer
