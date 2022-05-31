@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QMenuBar, QToolButton
 from qt_sass_theme_getter.qtSassThemeGetter import QtSassThemeGetter
 
 t = QtSassThemeGetter()
+t.setTheme(theme='dark')
 
 def getThemeStyle() -> str:
     return t.getThemeStyle()
