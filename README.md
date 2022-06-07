@@ -2,7 +2,7 @@
 PyQt dark-gray theme
 
 ## Note
-This is deprecated except for my personal project. If you want to use the dark-gray style, use <a href="https://github.com/yjg30737/qt-sass-theme-getter.git">qt-sass-theme-getter</a>.
+This is deprecated except for my personal project. If you want to use the dark-gray style, use <a href="https://github.com/yjg30737/qtsasstheme.git">qtsasstheme</a>.
 
 ## Requirements
 * PyQt5 >= 5.8
