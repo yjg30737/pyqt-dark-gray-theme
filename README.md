@@ -11,7 +11,7 @@ This is deprecated except for my personal project. If you want to use the dark-g
 `python -m pip install pyqt-dark-gray-theme`
 
 ## Included Packages
-* <a href="https://github.com/yjg30737/qt-sass-theme-getter.git">qt-sass-theme-getter</a> - For get dark-gray theme css code
+* <a href="https://github.com/yjg30737/qtsasstheme.git">qtsasstheme</a> - For get dark-gray theme css code
 
 ## Usage
 * `getThemeStyle() -> str` - use it to `QMainWindow`, `QDialog`.
