@@ -1,9 +1,9 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMenuBar, QToolButton
 
-from qt_sass_theme_getter.qtSassThemeGetter import QtSassThemeGetter
+from qt_sass_theme.qtSassTheme import QtSassTheme
 
-t = QtSassThemeGetter()
+t = QtSassTheme()
 
 def getThemeStyle() -> str:
     return t.getThemeStyle()

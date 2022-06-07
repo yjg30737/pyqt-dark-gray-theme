@@ -1,1 +1,1 @@
-qt-sass-theme-getter>=0.0.1
+qtsasstheme>=0.0.1

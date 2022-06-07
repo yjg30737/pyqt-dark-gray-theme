@@ -20,6 +20,6 @@ setup(
     long_description=long_description,
     install_requires=[
         'PyQt5>=5.8',
-        'qt-sass-theme-getter>=0.0.1'
+        'qtsasstheme>=0.0.1'
     ]
 )
